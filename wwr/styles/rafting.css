@@ -58,17 +58,19 @@ article {
 }
 
 .socialmedia img {
-  width: 32px;
-  height: 32px;
+  width: 24px;
+  height: 24px;
 }
 
 header > img {
-  width: 150px;
+  width: 120px;
   height: auto;
 }
 
 .hero {
   position: relative;
+  width: min(100%, 800px);
+  margin: 0 auto;
 }
 
 .hero img {
@@ -102,6 +104,6 @@ header > img {
 
 .hero article img {
   float: right;
-  width: 125px;
+  width: 100px;
   margin: 8px;
 }
