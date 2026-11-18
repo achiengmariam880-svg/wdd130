@@ -1,27 +1,38 @@
 nav {
-  background-color: dark blue;
-  padding: 10px
+  background-color: darkblue;
+  padding: 10px;
 }
 
 nav a {
   color: white;
-  display: block;
-  padding: 20px
+  display: inline-block;
+  padding: 20px;
+  text-decoration: none;
 }
 
 h1 {
-  color: dark blue;
-  5
+  color: darkblue;
 }
 
-image {
+img {
   width: 200px;
   height: auto;
   border: 1px solid black;
   padding: 2px;
-  box-shadow: 00 30px gray;
+  box-shadow: 0 0 30px gray;
+}
+
+.hero-image {
+  display: block;
+  width: min(90vw, 600px);
+  margin: 20px auto;
+}
+
+.profile-image {
+  float: right;
+  margin: 0 0 10px 20px;
 }
 
 p {
-  padding: 10px
+  padding: 10px;
 }

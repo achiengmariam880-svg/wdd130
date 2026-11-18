@@ -79,3 +79,11 @@ h1 {
   width: 125px;
   margin-left: 12px;
 }
+
+.adventure-image {
+  display: block;
+  width: 100%;
+  max-width: 640px;
+  height: auto;
+  margin: 16px auto;
+}
