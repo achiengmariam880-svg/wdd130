@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us | Whitewater Rafting Adventures</title>
+  <meta name="description" content="Contact Whitewater Rafting Adventures to book a trip, ask a question, or share a suggestion. Find our address, phone, email, map, and meet our guides.">
+  <link rel="stylesheet" href="style/rafting.css">
+</head>
+
+<body>
+
+  <!-- KEEP the same header and navigation copied from about.html -->
+  <header>
+    <h1>Whitewater Rafting Adventures</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Contact Us</h2>
+
+    <section class="contact-info">
+      <h3>Find Us</h3>
+      <address>
+        123 River Road<br>
+        Rexburg, ID 83440<br>
+        Phone: <a href="tel:+256794573239">+256 794 573 239</a><br>
+        Email: <a href="mailto:achiengmariam880@gmail.com">achiengmariam880@gmail.com</a>
+      </address>
+
+      <!-- Replace the src below with your own Google Maps embed code (leave out style="border:0") -->
+      <iframe class="map" src="https://www.google.com/maps/embed?pb=REPLACE_WITH_YOUR_EMBED_CODE" title="Map showing our location" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="team">
+      <h3>Meet Our Guides</h3>
+      <div class="team-grid">
+        <figure>
+          <img src="image/guide1.jpg" alt="Portrait of Sam Rivers" width="200" height="200" loading="lazy">
+          <figcaption>Sam Rivers<br>Head River Guide</figcaption>
+        </figure>
+        <figure>
+          <img src="image/guide2.jpg" alt="Portrait of Ana Brooks" width="200" height="200" loading="lazy">
+          <figcaption>Ana Brooks<br>Safety Coordinator</figcaption>
+        </figure>
+        <figure>
+          <img src="image/guide3.jpg" alt="Portrait of Leo Stone" width="200" height="200" loading="lazy">
+          <figcaption>Leo Stone<br>Reservations Manager</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="contact-form">
+      <h3>Send Us a Message</h3>
+      <form action="#" method="post">
+        <div class="field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <fieldset>
+          <legend>Purpose of Your Message</legend>
+          <div>
+            <input type="radio" id="general" name="purpose" value="general" checked>
+            <label for="general">General Inquiry</label>
+          </div>
+          <div>
+            <input type="radio" id="reservation" name="purpose" value="reservation">
+            <label for="reservation">Reservation Question</label>
+          </div>
+          <div>
+            <input type="radio" id="suggestion" name="purpose" value="suggestion">
+            <label for="suggestion">Website Suggestion</label>
+          </div>
+        </fieldset>
+
+        <div class="field">
+          <label for="message">Your message</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+        </div>
+
+        <div class="checkbox-field">
+          <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+          <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+        </div>
+
+        <button type="submit">Send My Message</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- KEEP the same footer copied from about.html -->
+  <footer>
+    <p>&copy; 2026 Whitewater Rafting Adventures</p>
+  </footer>
+
+</body>
+
+</html>

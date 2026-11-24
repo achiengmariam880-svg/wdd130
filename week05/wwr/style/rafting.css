@@ -1,0 +1,85 @@
+/* ===== Contact page additions: paste at the bottom of rafting.css ===== */
+
+address {
+  font-style: normal;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.map {
+  border: 0;
+  /* replaces the inline style="border:0" */
+  width: 100%;
+  max-width: 600px;
+  height: 300px;
+}
+
+.team-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.team-grid figure {
+  margin: 0;
+  text-align: center;
+}
+
+.team-grid img {
+  width: 200px;
+  height: 200px;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Form */
+.contact-form form {
+  max-width: 600px;
+}
+
+.field,
+.checkbox-field,
+fieldset {
+  margin-bottom: 1rem;
+}
+
+.field label {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+/* Shared by all text-style inputs */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #666;
+  border-radius: 4px;
+  font: inherit;
+  box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  width: 1.25rem;
+  height: 1.25rem;
+  vertical-align: middle;
+}
+
+button[type="submit"] {
+  padding: 12px 24px;
+  background-color: #0b5c8a;
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover,
+button[type="submit"]:focus {
+  background-color: #08405f;
+}
